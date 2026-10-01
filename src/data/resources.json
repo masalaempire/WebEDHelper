@@ -1,0 +1,929 @@
+[
+  {
+    "id": "spansh",
+    "name": "Spansh",
+    "url": "https://spansh.co.uk/",
+    "description": "Plot long journeys, neutron routes, exobiology trips, and carrier jumps.",
+    "categories": [
+      "Routing",
+      "Exploration",
+      "Exobiology",
+      "Fleet Carriers",
+      "Trading"
+    ],
+    "tags": [
+      "Neutron routes",
+      "Galaxy plotter",
+      "Tritium"
+    ],
+    "keywords": [
+      "travel",
+      "range",
+      "exomastery",
+      "road to riches"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "inara",
+    "name": "Inara",
+    "url": "https://inara.cz/elite/",
+    "description": "Find stations, equipment, trade opportunities, engineers, and commander information.",
+    "categories": [
+      "Engineering",
+      "Trading",
+      "Ships",
+      "Fleet Carriers"
+    ],
+    "tags": [
+      "Markets",
+      "Modules",
+      "Engineers"
+    ],
+    "keywords": [
+      "materials",
+      "carrier",
+      "outfitting",
+      "tritium"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edsm",
+    "name": "EDSM",
+    "url": "https://www.edsm.net/",
+    "description": "Explore the community star map, system database, and expedition records.",
+    "categories": [
+      "Exploration",
+      "Routing",
+      "Community"
+    ],
+    "tags": [
+      "Star map",
+      "Systems",
+      "Expeditions"
+    ],
+    "keywords": [
+      "galaxy",
+      "discovery",
+      "coordinates"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edsy",
+    "name": "EDSY",
+    "url": "https://edsy.org/",
+    "description": "Plan detailed ship loadouts and compare their performance.",
+    "categories": [
+      "Ships",
+      "Engineering",
+      "Combat"
+    ],
+    "tags": [
+      "Ship builder",
+      "Outfitting"
+    ],
+    "keywords": [
+      "build",
+      "modules",
+      "jump range"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "coriolis",
+    "name": "Coriolis",
+    "url": "https://coriolis.io/",
+    "description": "Build and share ship configurations with a visual outfitting planner.",
+    "categories": [
+      "Ships",
+      "Engineering",
+      "Combat"
+    ],
+    "tags": [
+      "Ship builder",
+      "Loadouts"
+    ],
+    "keywords": [
+      "build",
+      "outfitting",
+      "modules"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edastro",
+    "name": "EDAstro",
+    "url": "https://edastro.com/",
+    "description": "Explore galaxy maps, astronomical records, and community exploration data.",
+    "categories": [
+      "Exploration",
+      "Science",
+      "Fleet Carriers"
+    ],
+    "tags": [
+      "Galaxy maps",
+      "Records",
+      "DSSA"
+    ],
+    "keywords": [
+      "carrier",
+      "cartography",
+      "destinations"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "canonn",
+    "name": "Canonn Research",
+    "url": "https://canonn.science/",
+    "description": "Investigate unusual discoveries, alien sites, and the science of the galaxy.",
+    "categories": [
+      "Science",
+      "Exploration",
+      "Exobiology",
+      "Community"
+    ],
+    "tags": [
+      "Research",
+      "Guardians",
+      "Thargoids"
+    ],
+    "keywords": [
+      "lore",
+      "biology",
+      "codex"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "fuel-rats",
+    "name": "Fuel Rats",
+    "url": "https://fuelrats.com/",
+    "description": "Request help from the community's fuel rescue service.",
+    "categories": [
+      "Rescue",
+      "Community"
+    ],
+    "tags": [
+      "Fuel rescue",
+      "Emergency help"
+    ],
+    "keywords": [
+      "stranded",
+      "refuel",
+      "empty tank"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "hull-seals",
+    "name": "Hull Seals",
+    "url": "https://hullseals.space/",
+    "description": "Get community help with hull repairs when your journey goes wrong.",
+    "categories": [
+      "Rescue",
+      "Community"
+    ],
+    "tags": [
+      "Hull repair",
+      "Emergency help"
+    ],
+    "keywords": [
+      "damage",
+      "rescue",
+      "repair"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "axi",
+    "name": "Anti-Xeno Initiative Wiki",
+    "url": "https://wiki.antixenoinitiative.com/en/home",
+    "description": "Read anti-xeno tactics, ship preparation, and Thargoid combat guides.",
+    "categories": [
+      "Combat",
+      "Ships",
+      "Community"
+    ],
+    "tags": [
+      "Anti-xeno",
+      "Thargoids",
+      "Guides"
+    ],
+    "keywords": [
+      "axi",
+      "ax",
+      "interceptor"
+    ],
+    "type": "Guide",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edtools",
+    "name": "E:D Tools",
+    "url": "https://edtools.cc/",
+    "description": "Find mining destinations and use practical trade and combat utilities.",
+    "categories": [
+      "Mining",
+      "Trading",
+      "Combat"
+    ],
+    "tags": [
+      "Miner's tool",
+      "Hotspots",
+      "Utilities"
+    ],
+    "keywords": [
+      "platinum",
+      "painite",
+      "bounty",
+      "commodities"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "ardent",
+    "name": "Ardent Insight",
+    "url": "https://ardent-insight.com/",
+    "description": "Look up systems, stations, trade data, and available services.",
+    "categories": [
+      "Trading",
+      "Exploration",
+      "Fleet Carriers"
+    ],
+    "tags": [
+      "Stations",
+      "Market data"
+    ],
+    "keywords": [
+      "tritium",
+      "carrier",
+      "commodities"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edmc",
+    "name": "ED Market Connector",
+    "url": "https://github.com/EDCD/EDMarketConnector",
+    "description": "Share game data with community services using a desktop journal companion.",
+    "categories": [
+      "Utilities",
+      "Trading",
+      "Exploration"
+    ],
+    "tags": [
+      "Journal",
+      "Data sharing",
+      "Plugins"
+    ],
+    "keywords": [
+      "edmc",
+      "eddn",
+      "inara"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "eddiscovery",
+    "name": "EDDiscovery",
+    "url": "https://github.com/EDDiscovery/EDDiscovery",
+    "description": "Review your journeys and discoveries with a desktop logbook and star map.",
+    "categories": [
+      "Exploration",
+      "Science",
+      "Utilities"
+    ],
+    "tags": [
+      "Logbook",
+      "Journal",
+      "Star map"
+    ],
+    "keywords": [
+      "travel history",
+      "statistics"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "observatory",
+    "name": "Elite Observatory Core",
+    "url": "https://observatory.xjph.net/",
+    "description": "Monitor your journal and discover interesting bodies through exploration plugins.",
+    "categories": [
+      "Exploration",
+      "Exobiology",
+      "Science"
+    ],
+    "tags": [
+      "Journal",
+      "Plugins",
+      "Body analysis"
+    ],
+    "keywords": [
+      "bioinsights",
+      "botanist",
+      "discoveries"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "materials-helper",
+    "name": "Odyssey Materials Helper",
+    "url": "https://github.com/jixxed/ed-odyssey-materials-helper",
+    "description": "Organize materials and plan ship, suit, and weapon engineering.",
+    "categories": [
+      "Engineering",
+      "Ships",
+      "Utilities"
+    ],
+    "tags": [
+      "Materials",
+      "Odyssey",
+      "Engineering"
+    ],
+    "keywords": [
+      "edomh",
+      "upgrades",
+      "shopping list"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "eddi",
+    "name": "EDDI",
+    "url": "https://github.com/EDCD/EDDI",
+    "description": "Add spoken information and configurable responses to your commander sessions.",
+    "categories": [
+      "Utilities",
+      "Exploration"
+    ],
+    "tags": [
+      "Voice",
+      "Journal",
+      "Companion"
+    ],
+    "keywords": [
+      "speech",
+      "audio",
+      "voiceattack"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edcopilot",
+    "name": "EDCoPilot",
+    "url": "https://www.razzafrag.com/",
+    "description": "Use a desktop assistant for navigation, information, and voice feedback.",
+    "categories": [
+      "Utilities",
+      "Routing",
+      "Exploration"
+    ],
+    "tags": [
+      "Voice assistant",
+      "Navigation"
+    ],
+    "keywords": [
+      "copilot",
+      "vr",
+      "companion"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "srv-survey",
+    "name": "SRV Survey",
+    "url": "https://github.com/njthomson/SrvSurvey",
+    "description": "Use contextual overlays for surface exploration, biology, and colonisation.",
+    "categories": [
+      "Exploration",
+      "Exobiology",
+      "Utilities"
+    ],
+    "tags": [
+      "Surface exploration",
+      "Overlays"
+    ],
+    "keywords": [
+      "srv",
+      "biology",
+      "colonisation"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "neutron-dancer",
+    "name": "Neutron Dancer",
+    "url": "https://github.com/dwomble/EDMC-NeutronDancer",
+    "description": "Follow Spansh routes from EDMC and copy your next waypoint.",
+    "categories": [
+      "Routing",
+      "Exploration",
+      "Fleet Carriers"
+    ],
+    "tags": [
+      "EDMC plugin",
+      "Waypoints"
+    ],
+    "keywords": [
+      "neutron",
+      "carrier",
+      "route progress"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "bgs-tally",
+    "name": "BGS Tally",
+    "url": "https://github.com/aussig/BGS-Tally",
+    "description": "Track faction work, colonisation, Powerplay, and Thargoid war activity.",
+    "categories": [
+      "Community",
+      "Combat",
+      "Trading",
+      "Utilities"
+    ],
+    "tags": [
+      "EDMC plugin",
+      "BGS",
+      "Powerplay"
+    ],
+    "keywords": [
+      "factions",
+      "squadron",
+      "merits"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edhm",
+    "name": "EDHM UI",
+    "url": "https://bluemystical.github.io/edhm-api/",
+    "description": "Customize your cockpit colors with a desktop HUD editor.",
+    "categories": [
+      "Utilities"
+    ],
+    "tags": [
+      "HUD colors",
+      "Customization"
+    ],
+    "keywords": [
+      "interface",
+      "cockpit",
+      "theme"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edrefcard",
+    "name": "EDRefCard",
+    "url": "https://edrefcard.info/",
+    "description": "Turn your control bindings into a reference card.",
+    "categories": [
+      "Utilities"
+    ],
+    "tags": [
+      "Controls",
+      "Bindings"
+    ],
+    "keywords": [
+      "joystick",
+      "hotas",
+      "keyboard"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edcodex",
+    "name": "EDCodex",
+    "url": "https://edcodex.info/",
+    "description": "Browse a broad community index of Elite tools, websites, and guides.",
+    "categories": [
+      "Utilities",
+      "Community"
+    ],
+    "tags": [
+      "Tool directory",
+      "Guides"
+    ],
+    "keywords": [
+      "resources",
+      "third party",
+      "apps"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edcd",
+    "name": "Elite Community Developers",
+    "url": "https://edcd.github.io/",
+    "description": "Find community development projects and learn about shared game data.",
+    "categories": [
+      "Utilities",
+      "Science",
+      "Community"
+    ],
+    "tags": [
+      "Developer resources",
+      "Open data"
+    ],
+    "keywords": [
+      "api",
+      "eddn",
+      "open source"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "frontier-forums",
+    "name": "Frontier Forums",
+    "url": "https://forums.frontier.co.uk/categories/elite-dangerous/",
+    "description": "Read game discussions, community projects, and commander advice.",
+    "categories": [
+      "Community"
+    ],
+    "tags": [
+      "Forums",
+      "Discussion"
+    ],
+    "keywords": [
+      "announcements",
+      "help",
+      "questions"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "elite-reddit",
+    "name": "r/EliteDangerous",
+    "url": "https://www.reddit.com/r/EliteDangerous/",
+    "description": "Join general commander discussions and the community's daily questions.",
+    "categories": [
+      "Community"
+    ],
+    "tags": [
+      "Discussion",
+      "Questions"
+    ],
+    "keywords": [
+      "reddit",
+      "news",
+      "help"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "miners-reddit",
+    "name": "r/EliteMiners",
+    "url": "https://www.reddit.com/r/EliteMiners/",
+    "description": "Find mining advice, shared experiences, and community reference posts.",
+    "categories": [
+      "Mining",
+      "Community"
+    ],
+    "tags": [
+      "Mining advice",
+      "Discussion"
+    ],
+    "keywords": [
+      "reddit",
+      "laser",
+      "core",
+      "hotspots"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "explorers-reddit",
+    "name": "r/EliteExplorers",
+    "url": "https://www.reddit.com/r/eliteexplorers/",
+    "description": "Share discoveries and get advice for your next expedition.",
+    "categories": [
+      "Exploration",
+      "Exobiology",
+      "Community"
+    ],
+    "tags": [
+      "Exploration advice",
+      "Discussion"
+    ],
+    "keywords": [
+      "reddit",
+      "expeditions",
+      "discoveries"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "outfitters-reddit",
+    "name": "r/EliteOutfitters",
+    "url": "https://www.reddit.com/r/eliteoutfitters/",
+    "description": "Ask for ship loadout advice and discuss commander builds.",
+    "categories": [
+      "Ships",
+      "Combat",
+      "Community"
+    ],
+    "tags": [
+      "Ship builds",
+      "Discussion"
+    ],
+    "keywords": [
+      "reddit",
+      "outfitting",
+      "engineering"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "dsn",
+    "name": "Deep Space Network",
+    "url": "https://ed-dsn.net/en/",
+    "description": "Read exploration and exobiology references from an expedition community.",
+    "categories": [
+      "Exploration",
+      "Exobiology",
+      "Science",
+      "Community"
+    ],
+    "tags": [
+      "Biology guides",
+      "Expeditions"
+    ],
+    "keywords": [
+      "flora",
+      "vista genomics",
+      "species"
+    ],
+    "type": "Guide",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "edjp",
+    "name": "Elite Journal Processor",
+    "url": "https://edjp.colacube.net/",
+    "description": "Organize discoveries, surveys, and waypoints with journal-based exploration tools.",
+    "categories": [
+      "Exploration",
+      "Exobiology",
+      "Routing"
+    ],
+    "tags": [
+      "Journal",
+      "Boxel surveys",
+      "Plugins"
+    ],
+    "keywords": [
+      "edjp",
+      "earth like",
+      "bioinsights"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "raven",
+    "name": "Raven Colonial",
+    "url": "https://ravencolonial.com/",
+    "description": "Coordinate colonisation projects and track construction logistics.",
+    "categories": [
+      "Trading",
+      "Fleet Carriers",
+      "Community"
+    ],
+    "tags": [
+      "Colonisation",
+      "Logistics"
+    ],
+    "keywords": [
+      "cargo",
+      "carrier",
+      "construction"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "field-manual",
+    "name": "Elite Field Manual",
+    "url": "https://edfieldmanual.com/",
+    "description": "Browse reference material and guides for new and returning commanders.",
+    "categories": [
+      "Engineering",
+      "Ships",
+      "Exploration",
+      "Utilities"
+    ],
+    "tags": [
+      "Wiki",
+      "Guides",
+      "Getting started"
+    ],
+    "keywords": [
+      "beginner",
+      "reference",
+      "help"
+    ],
+    "type": "Guide",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "ship-anatomy",
+    "name": "Elite Ship Anatomy",
+    "url": "https://siriuscorp.cc/edsa/",
+    "description": "Inspect ship layouts, module positions, and hardpoint placement.",
+    "categories": [
+      "Ships",
+      "Combat"
+    ],
+    "tags": [
+      "Ship layouts",
+      "Hardpoints"
+    ],
+    "keywords": [
+      "anatomy",
+      "convergence",
+      "modules"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "icarus",
+    "name": "ICARUS Terminal",
+    "url": "https://github.com/iaincollins/icarus",
+    "description": "Use a companion terminal as a second screen for your game session.",
+    "categories": [
+      "Utilities",
+      "Exploration"
+    ],
+    "tags": [
+      "Second screen",
+      "Journal"
+    ],
+    "keywords": [
+      "icarus",
+      "dashboard",
+      "companion"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "od-explorer",
+    "name": "OD Explorer",
+    "url": "https://github.com/WarmedxMints/OD-Explorer",
+    "description": "Track exploration and exobiology in a desktop companion.",
+    "categories": [
+      "Exploration",
+      "Exobiology"
+    ],
+    "tags": [
+      "Journal",
+      "Exploration tracking"
+    ],
+    "keywords": [
+      "biology",
+      "discovery",
+      "odyssey"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "elite-mining",
+    "name": "EliteMining",
+    "url": "https://github.com/Viper-Dude/EliteMining",
+    "description": "Support mining operations with journal tracking and mining information.",
+    "categories": [
+      "Mining",
+      "Trading",
+      "Utilities"
+    ],
+    "tags": [
+      "Mining companion",
+      "Journal"
+    ],
+    "keywords": [
+      "hotspots",
+      "session",
+      "ore"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "exploration-buddy",
+    "name": "Exploration Buddy",
+    "url": "https://www.panostrede.de/EDEB/",
+    "description": "Get exploration assistance from a journal-based desktop companion.",
+    "categories": [
+      "Exploration",
+      "Exobiology"
+    ],
+    "tags": [
+      "Exploration companion",
+      "Journal"
+    ],
+    "keywords": [
+      "edeb",
+      "odyssey",
+      "bodies"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "voiceattack",
+    "name": "VoiceAttack",
+    "url": "https://voiceattack.com/",
+    "description": "Map spoken commands to game controls with a paid desktop utility.",
+    "categories": [
+      "Utilities"
+    ],
+    "tags": [
+      "Voice controls",
+      "Paid software"
+    ],
+    "keywords": [
+      "accessibility",
+      "speech",
+      "hotas"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "hcs",
+    "name": "HCS Voice Packs",
+    "url": "https://www.hcsvoicepacks.com/",
+    "description": "Browse paid voice packs and companion add-ons for voice-controlled play.",
+    "categories": [
+      "Utilities"
+    ],
+    "tags": [
+      "Voice packs",
+      "Paid add-ons"
+    ],
+    "keywords": [
+      "voiceattack",
+      "audio",
+      "companion"
+    ],
+    "type": "Desktop tool",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "ed-tools-directory",
+    "name": "Elite Dangerous Tools",
+    "url": "https://ed.tools/",
+    "description": "Explore another community directory of companion apps and references.",
+    "categories": [
+      "Utilities",
+      "Community"
+    ],
+    "tags": [
+      "Tool directory",
+      "References"
+    ],
+    "keywords": [
+      "resources",
+      "third party",
+      "apps"
+    ],
+    "type": "Website",
+    "checkedAt": "2026-10-01"
+  }
+]

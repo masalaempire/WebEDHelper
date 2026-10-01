@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.wrangler/
+playwright-report/
+test-results/
+reports/
+.env
+.env.*
+.DS_Store

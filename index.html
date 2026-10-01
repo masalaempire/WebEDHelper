@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8fa" />
+    <meta name="description" content="Find your next Elite Dangerous tool. A curated directory of websites, community resources, and companion apps." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Mini Elite Helper · Your next jump starts here</title>
+    <script>
+      try {
+        const saved = JSON.parse(localStorage.getItem('mini-elite-helper:v1') || '{}');
+        const dark = saved.theme === 'dark' || ((!saved.theme || saved.theme === 'system') && matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      } catch { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    </script>
+  </head>
+  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+</html>

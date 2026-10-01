@@ -1,0 +1,88 @@
+name: Validate v0.1
+on:
+  push:
+    branches: [main, feature/v0.1-directory]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: validation-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Type check and build
+        run: npm run build
+      - name: Unit and catalog checks
+        run: npm test
+      - name: Install Chromium on the GitHub runner
+        run: npx playwright install --with-deps chromium
+      - name: Test the app through the Workers runtime
+        run: npm run test:e2e
+        env:
+          CLOUDFLARE_SEND_METRICS: 'false'
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: reports/screenshots/
+          if-no-files-found: ignore
+      - name: Upload browser report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-report
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+      - name: Upload static build
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-static-build
+          path: dist/
+  link-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check external destinations
+        run: node scripts/audit-links.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-review
+          path: reports/link-audit.json
+  review-images:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/feature/v0.1-directory'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v4
+        with:
+          name: screenshots
+          path: reports/screenshots/
+      - name: Publish screenshots to the remote QA branch
+        run: node scripts/publish-review.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCE_SHA: ${{ github.sha }}
