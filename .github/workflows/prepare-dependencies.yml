@@ -1,0 +1,30 @@
+name: Prepare dependency lockfile
+on:
+  push:
+    branches: [feature/v0.1-directory]
+    paths: [package.json, scripts/pin-dependencies.mjs, .github/workflows/prepare-dependencies.yml]
+permissions:
+  contents: write
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/v0.1-directory
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Pin current package versions
+        run: node scripts/pin-dependencies.mjs
+      - name: Resolve the dependency lockfile
+        run: npm install --package-lock-only --ignore-scripts
+      - name: Commit reproducible dependencies
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add package.json package-lock.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Pin dependencies and add lockfile [skip ci]"
+            git push
+          fi
