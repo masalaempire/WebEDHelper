@@ -104,8 +104,14 @@ test('keyboard shortcut, focus, and responsive layout', async ({ page }, info) =
     await page.keyboard.press('Tab');
     await expect(page.getByRole('button', { name: 'Favorites only' })).toBeFocused();
   }
-  for (const path of ['/', '/tools', '/saved']) {
-    await page.goto(path);
+  for (const name of ['Tools', 'Saved', 'Directory']) {
+    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+    await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: new RegExp('^' + name) }).click();
+    await expect(page.getByRole('main')).toBeFocused();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+    const headingTop = await page.getByRole('heading', { level: 1 }).evaluate(el => el.getBoundingClientRect().top);
+    const headerBottom = await page.locator('.site-header').evaluate(el => el.getBoundingClientRect().bottom);
+    expect(headingTop).toBeGreaterThanOrEqual(headerBottom);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
 });
