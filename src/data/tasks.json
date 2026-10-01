@@ -1,0 +1,173 @@
+[
+  {
+    "id": "galaxy",
+    "label": "Plot a long-distance route",
+    "description": "Plan a journey across the galaxy with your ship's actual capabilities.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/exact-plotter",
+    "categories": [
+      "Routing",
+      "Exploration"
+    ]
+  },
+  {
+    "id": "neutron",
+    "label": "Plot a neutron route",
+    "description": "Find a route using neutron stars to extend your jumps.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/plotter",
+    "categories": [
+      "Routing",
+      "Exploration"
+    ]
+  },
+  {
+    "id": "exobiology",
+    "label": "Plan an exobiology trip",
+    "description": "Use Expressway to Exomastery to plan biological exploration.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/exobiology",
+    "categories": [
+      "Exobiology",
+      "Exploration"
+    ]
+  },
+  {
+    "id": "carrier",
+    "label": "Move a fleet carrier",
+    "description": "Plan carrier jumps and estimate the tritium needed for the journey.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/fleet-carrier",
+    "categories": [
+      "Fleet Carriers",
+      "Routing"
+    ]
+  },
+  {
+    "id": "riches",
+    "label": "Find valuable exploration",
+    "description": "Build a Road to Riches route through valuable bodies.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/riches",
+    "categories": [
+      "Exploration",
+      "Routing"
+    ]
+  },
+  {
+    "id": "tourist",
+    "label": "Plan a sightseeing route",
+    "description": "Connect your chosen destinations into a tourist itinerary.",
+    "resourceId": "spansh",
+    "url": "https://spansh.co.uk/tourist",
+    "categories": [
+      "Exploration",
+      "Routing"
+    ]
+  },
+  {
+    "id": "system",
+    "label": "Look up a star system",
+    "description": "Search the community star map for a system and its records.",
+    "resourceId": "edsm",
+    "url": "https://www.edsm.net/",
+    "categories": [
+      "Exploration",
+      "Science"
+    ]
+  },
+  {
+    "id": "detailed-build",
+    "label": "Design a detailed ship build",
+    "description": "Compare outfitting, engineering, and performance in EDSY.",
+    "resourceId": "edsy",
+    "url": "https://edsy.org/",
+    "categories": [
+      "Ships",
+      "Engineering"
+    ]
+  },
+  {
+    "id": "quick-build",
+    "label": "Create a ship loadout",
+    "description": "Build and share a configuration in Coriolis.",
+    "resourceId": "coriolis",
+    "url": "https://coriolis.io/",
+    "categories": [
+      "Ships",
+      "Combat"
+    ]
+  },
+  {
+    "id": "module",
+    "label": "Find a ship or module",
+    "description": "Find the nearest outfitting options using Inara's search.",
+    "resourceId": "inara",
+    "url": "https://inara.cz/elite/nearest-outfitting/",
+    "categories": [
+      "Ships",
+      "Engineering"
+    ]
+  },
+  {
+    "id": "engineers",
+    "label": "Plan engineering unlocks",
+    "description": "Check engineer requirements and available upgrades.",
+    "resourceId": "inara",
+    "url": "https://inara.cz/elite/engineers/",
+    "categories": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "trader",
+    "label": "Find a material trader",
+    "description": "Open Inara's material trader station search.",
+    "resourceId": "inara",
+    "url": "https://inara.cz/elite/nearest-stations/?formbrief=1&pa1%5B%5D=25&pi17=1&pi18=3&pi19=5000",
+    "categories": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "trade",
+    "label": "Find a trade route",
+    "description": "Compare trade opportunities using Inara's route finder.",
+    "resourceId": "inara",
+    "url": "https://inara.cz/elite/market-traderoutes/",
+    "categories": [
+      "Trading"
+    ]
+  },
+  {
+    "id": "mine",
+    "label": "Find a mining destination",
+    "description": "Use the Miner's Tool to find mining locations and markets.",
+    "resourceId": "edtools",
+    "url": "https://edtools.cc/miner",
+    "categories": [
+      "Mining",
+      "Trading"
+    ]
+  },
+  {
+    "id": "fuel",
+    "label": "Get fuel rescue",
+    "description": "Reach the Fuel Rats when you're stranded without fuel.",
+    "resourceId": "fuel-rats",
+    "url": "https://fuelrats.com/",
+    "categories": [
+      "Rescue"
+    ]
+  },
+  {
+    "id": "hull",
+    "label": "Get help with hull damage",
+    "description": "Contact the Hull Seals for repair assistance.",
+    "resourceId": "hull-seals",
+    "url": "https://hullseals.space/",
+    "categories": [
+      "Rescue"
+    ]
+  }
+]
