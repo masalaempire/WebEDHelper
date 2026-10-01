@@ -925,5 +925,54 @@
     ],
     "type": "Website",
     "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "elite-dangerous-wiki",
+    "name": "Elite Dangerous Wiki",
+    "url": "https://elite-dangerous.fandom.com/",
+    "description": "Look up ships, equipment, game mechanics, and lore in the community wiki.",
+    "categories": [
+      "Community",
+      "Utilities"
+    ],
+    "tags": [
+      "Wiki",
+      "Game reference",
+      "Lore"
+    ],
+    "keywords": [
+      "fandom",
+      "ships",
+      "modules",
+      "factions",
+      "guides"
+    ],
+    "type": "Guide",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "pilots-trade-network",
+    "name": "Pilots Trade Network",
+    "url": "https://pilotstradenetwork.com/",
+    "description": "Find community trade missions, money-making guides, ship builds, and carrier tools.",
+    "categories": [
+      "Trading",
+      "Fleet Carriers",
+      "Community"
+    ],
+    "tags": [
+      "Trade missions",
+      "Guides",
+      "Carrier calculator"
+    ],
+    "keywords": [
+      "ptn",
+      "hauling",
+      "credits",
+      "booze cruise",
+      "discord"
+    ],
+    "type": "Community",
+    "checkedAt": "2026-10-01"
   }
 ]

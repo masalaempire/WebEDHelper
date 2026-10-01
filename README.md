@@ -4,7 +4,7 @@ Mini Elite Helper is a web-based directory for Elite Dangerous resources. It hel
 
 ## Features
 
-- A curated directory of 42 Elite Dangerous resources with search, category filters, favorites, and sorting.
+- A curated directory of 44 Elite Dangerous resources with search, category filters, favorites, and sorting.
 - A task-based launcher with 16 shortcuts for activities such as route planning, exploration, ship building, and trading.
 - A Saved page for favorite resources and personal website bookmarks, including tags and categories.
 - A responsive interface with light, dark, and system theme options.

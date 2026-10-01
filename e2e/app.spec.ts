@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { mkdir } from 'node:fs/promises';
 test('directory search, combined categories, and clear filters', async ({ page }, info) => {
   await page.goto('/');
-  await expect(page.getByTestId('resource-card')).toHaveCount(42);
+  await expect(page.getByTestId('resource-card')).toHaveCount(44);
   await page.getByRole('searchbox', { name: 'Search resources' }).fill('  CARRIER  TRITIUM ');
   await expect(page.getByRole('heading', { name: 'Spansh', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'EDSY', exact: true })).toHaveCount(0);
@@ -12,7 +12,7 @@ test('directory search, combined categories, and clear filters', async ({ page }
   await categories.getByRole('button', { name: /^Exploration/ }).click();
   await expect(page.getByRole('heading', { name: 'Spansh', exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Clear filters', exact: true }).click();
-  await expect(page.getByTestId('resource-card')).toHaveCount(42);
+  await expect(page.getByTestId('resource-card')).toHaveCount(44);
   await page.getByRole('searchbox', { name: 'Search resources' }).fill('zz-unfindable-zz');
   await expect(page.getByRole('heading', { name: 'No resources found' })).toBeVisible();
 });
@@ -83,7 +83,7 @@ test('corrupt saved data leaves the directory usable', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('mini-elite-helper:v1', '{corrupt'));
   await page.goto('/');
   await expect(page.getByRole('alert')).toContainText('could not be read');
-  await expect(page.getByTestId('resource-card')).toHaveCount(42);
+  await expect(page.getByTestId('resource-card')).toHaveCount(44);
 });
 test('blocked storage keeps changes available for the visit', async ({ page }) => {
   await page.addInitScript(() => {
