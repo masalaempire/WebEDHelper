@@ -33,11 +33,11 @@ test('custom bookmarks validate, preserve links, edit, filter, and delete', asyn
   await page.goto('/saved');
   await page.getByRole('button', { name: 'Add bookmark', exact: true }).click();
   const dialog = page.getByRole('dialog', { name: 'Save a new link' });
-  await dialog.getByLabel('Name', { exact: true }).fill('My Mandalay');
-  await dialog.getByLabel('URL', { exact: true }).fill('javascript:alert(1)');
+  await dialog.getByRole('textbox', { name: 'Name', exact: true }).fill('My Mandalay');
+  await dialog.getByRole('textbox', { name: 'URL', exact: true }).fill('javascript:alert(1)');
   await dialog.getByRole('button', { name: 'Save bookmark', exact: true }).click();
   await expect(dialog.getByRole('alert')).toContainText('full URL');
-  await dialog.getByLabel('URL', { exact: true }).fill('https://edsy.org/?test=1#mandalay');
+  await dialog.getByRole('textbox', { name: 'URL', exact: true }).fill('https://edsy.org/?test=1#mandalay');
   await dialog.getByLabel('Description', { exact: true }).fill('Long range build');
   await dialog.getByRole('button', { name: 'Ships', exact: true }).click();
   await dialog.getByLabel(/^Tags/).fill('range, exploration');
@@ -45,7 +45,7 @@ test('custom bookmarks validate, preserve links, edit, filter, and delete', asyn
   await expect(page.getByRole('link', { name: 'Open bookmark My Mandalay (new tab)' })).toHaveAttribute('href', 'https://edsy.org/?test=1#mandalay');
   await page.reload();
   await page.getByRole('button', { name: 'Edit My Mandalay', exact: true }).click();
-  await page.getByRole('dialog').getByLabel('Name', { exact: true }).fill('Expedition Mandalay');
+  await page.getByRole('dialog').getByRole('textbox', { name: 'Name', exact: true }).fill('Expedition Mandalay');
   await page.getByRole('button', { name: 'Save bookmark', exact: true }).click();
   await page.getByRole('searchbox', { name: 'Search saved links' }).fill('range');
   await expect(page.getByTestId('bookmark-card')).toHaveCount(1);
